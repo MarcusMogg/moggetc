@@ -201,3 +201,5 @@ zstyle ':completion:*:*sh:*:' tag-order files
 
 eval "$(lua $HOME/.local/etc/z.lua --init zsh enhanced once echo)"     # ZSH 初始化
 [ -f "$HOME/.xmake/profile" ] && source "$HOME/.xmake/profile"
+
+[ -d "/mnt/c/Program Files/Microsoft VS Code/bin/" ] && export PATH=$PATH:"/mnt/c/Program Files/Microsoft VS Code/bin/"

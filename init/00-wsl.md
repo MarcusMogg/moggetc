@@ -7,6 +7,6 @@ https://github.com/sorin-ionescu/prezto/issues/1820#issuecomment-690138955
 
 ```
 [interop]
-enabled=false # WSL 是否支持启动 Windows 进程。
+enabled=true # WSL 是否支持启动 Windows 进程。 for code
 appendWindowsPath=false # WSL 是否将 Windows 路径元素添加到$PATH环境变量。
 ```
