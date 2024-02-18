@@ -1,5 +1,9 @@
 #!/usr/bin/env bash
 
+sudo apt update
+sudo apt upgrade
+sudo apt install libssl-dev
+
 cd /tmp
 
 # xmake https://xmake.io/#/zh-cn/getting_started
