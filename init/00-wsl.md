@@ -19,5 +19,9 @@ win `code %USERPROFILE%\.wslconfig`
 
 ```
 [experimental]
-autoProxy=false
+autoMemoryReclaim=gradual  # gradual  | dropcache | disabled
+networkingMode=mirrored
+dnsTunneling=true
+firewall=true
+autoProxy=true
 ```
