@@ -203,3 +203,4 @@ eval "$(lua $HOME/.local/etc/z.lua --init zsh enhanced once echo)"     # ZSH 初
 [ -f "$HOME/.xmake/profile" ] && source "$HOME/.xmake/profile"
 
 [ -d "/mnt/c/Program Files/Microsoft VS Code/bin/" ] && export PATH=$PATH:"/mnt/c/Program Files/Microsoft VS Code/bin/"
+[ -d "/mnt/c/Users/moggma/AppData/Local/Programs/Microsoft VS Code" ] && export PATH=$PATH:"/mnt/c/Users/moggma/AppData/Local/Programs/Microsoft VS Code/bin"
